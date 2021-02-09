@@ -66,7 +66,7 @@ start.textContent = `Rory`;
 end.textContent = `Lambda`;
 start.style.color = `green`;
 end.style.color = `green`;
-ctaH1.innerHTML = siteContent[`cta`][`button`].split(" ").join("<br>");
+ctaH1.innerHTML = siteContent[`cta`][`h1`].split(" ").join("<br>");
 
 ctaButton.textContent = siteContent[`cta`][`button`];
 ctaImg.setAttribute(`src`, siteContent[`cta`][`img-src`]);
